@@ -1,0 +1,245 @@
+body{
+	text-align: center;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat';
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+/*container*/
+.container-fluid{
+	padding: 7% 15%;
+}
+
+
+
+/*sections*/
+.colored-section{
+	background-color: #ff4c68;
+	color: #fff;
+
+}
+
+.white-section{
+	background-color: #fff;
+
+
+}
+
+
+
+/*title and navbar*/
+#title{ 
+	 text-align: left;
+ }
+
+ #title .container-fluid{
+ 	padding: 3% 15% 7%
+ }
+
+
+
+
+
+/*heading*/
+.big-heading{
+    font-family: 'Montserrat';
+	font-size: 3.5rem;
+	line-height: 1.5;
+	color: #fff;
+
+}
+
+
+.section-heading{
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+
+
+
+
+/* NAVIATION BAR*/
+.navbar{
+	padding: 0 0 4.5rem 0;
+}
+
+
+.nav-item{
+	padding:0 18px 0 0;
+}
+
+
+.nav-link{
+	font-size: 1.2rem;
+	font-family: "Ubuntu",sans-serif;
+}
+
+
+.navbar-brand{
+	 font-family: 'Ubuntu', sans-serif;
+	 font-size: 2.5rem;
+	 font-weight: bold;
+}
+
+
+
+
+/*button*/
+.download-button{
+	margin: 5% 3% 5% 0;
+
+}
+
+
+
+
+/*title*/
+.title-image{
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+}
+
+
+
+
+/*features section*/
+#features{
+       background-color: #fff;
+       position: relative;
+       z-index: 1;
+
+}
+
+
+.feature-box{
+	padding: 5%;
+	font-family:'Ubuntu', sans-serif;
+}
+
+
+.icon{
+	color: #ef8172;
+	margin-bottom:1rem; 
+}
+
+
+.icon:hover{
+	color:#ff4c68; 
+}
+
+
+.feature-title{
+	font-size: 1.2rem;
+}
+
+
+.features-text{
+	color: #8F8F8F;
+}
+
+
+
+
+/*testimonials*/
+.testimonial-text{
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+
+
+.testimonial-image{
+	border-radius: 100%;
+	width: 15%;
+}
+
+
+
+
+/*press*/
+.press-image{
+	width: 15%;
+	margin: 20px 20px;
+	padding-bottom: 50px;
+}
+
+
+
+
+/*pricing*/
+#pricing{
+	padding: 100px;
+}
+
+
+.card-only{
+	padding:5% 3%;
+
+}
+
+
+.card-title{
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+
+
+.header-card{
+	font-size: 1.2rem;
+}
+
+
+.card-text{
+	color: #8F8F8F;
+}
+
+
+
+
+/* MEDIA QUERIES*/
+
+@media (max-width:991px){
+	#title{
+		text-align: center;
+	}
+	.title-image{
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+
+
+
+/*call to action*/
+.cta-button{
+	margin: 2% 2%;
+}
+
+
+
+
+/*footer*/
+.footericon{
+	margin: 20px 10px;
+	color: #000;
+}
+
+
+.footer-text{
+	font-size: 1rem;
+	color: #8F8F8F;
+}
+
+
+.footericon:hover{
+	color: #ff4c68; ;
+}
+
+
+
